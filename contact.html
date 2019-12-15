@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="fonts/fontawesome/css/all.css">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Frivizn Hotel | Contact</title>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+
+  <nav class="navbar bg-dark navbar-dark navbar-expand-md fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Frivizn</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myTogglerNav"
+        aria-controls="myTogglerNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="myTogglerNav">
+        <div class="navbar-nav ml-auto pt-1">
+          <a class="nav-item nav-link" href="index.html">Home</a>
+          <a class="nav-item nav-link" href="about.html">About</a>
+          <a class="nav-item nav-link" href="rooms.html">Rooms</a>
+          <a class="nav-item nav-link" href="blog.html">Blog</a>
+          <a class="nav-item nav-link active" href="contact.html">Contact</a>
+          <div class="mb-1">
+            <button type="button" class="btn btn-primary pb-2 text-uppercase" data-toggle="modal"
+              data-target="#servicesmodal">Book
+              Now</button>
+          </div>
+        </div> <!-- navbar-nav -->
+      </div> <!-- collapse -->
+    </div> <!-- container -->
+  </nav> <!-- navbar -->
+
+  <!-- End of Navigation -->
+
+  <!-- Header -->
+
+  <div class="overlay"></div>
+  <header class="masthead contact-masthead mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="font-weight-light text-light">Contact</h1>
+          <p class="lead text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit atque odio</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- End of Header -->
+
+  <!-- Main -->
+
+  <div class="container">
+
+    <!-- Map -->
+
+    <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+      src="https://www.openstreetmap.org/export/embed.html?bbox=-77.40087032318117%2C25.06410335392493%2C-77.38070011138917%2C25.07656189968967&amp;layer=mapnik&amp;marker=25.070330841488666%2C-77.39077663369244"
+      style="border: 1px solid black"></iframe><br /><small><a
+        href="https://www.openstreetmap.org/?mlat=25.0703&amp;mlon=-77.3908#map=16/25.0703/-77.3908">View Larger
+        Map</a></small>
+
+    <!-- End of Map -->
+
+    <div class="row">
+
+      <!-- Contact Form -->
+
+      <div class="col-md-8 py-5">
+        <div class="container">
+
+          <section class="mb-5">
+
+            <form>
+
+              <fieldset class="form-group">
+
+                <legend class="pb-2">Contact form</legend>
+
+                <div class="form-group">
+                  <label class="form-control-label sr-only" for="ownername">Name</label>
+                  <input class="form-control" type="text" id="ownername" placeholder="Your name">
+                </div> <!-- form-group -->
+
+                <div class="form-group">
+                  <label class="form-control-label sr-only" for="owneremail">Email address</label>
+                  <input class="form-control" type="email" id="owneremail" aria-describedby="email"
+                    placeholder="Your email">
+                </div> <!-- form-group -->
+
+                <div class="form-group">
+                  <label class="form-control-label sr-only" for="subject">Subject</label>
+                  <input class="form-control" type="text" id="subject" aria-describedby="subject" placeholder="Subject">
+                </div> <!-- form-group -->
+
+                <div class="form-group">
+                  <label class="form-control-label sr-only" for="yourmessage">Message</label>
+                  <textarea class="form-control" id="yourmessage" rows="3" placeholder="Enter your message"></textarea>
+                </div> <!-- form-group -->
+
+                <button class="btn btn-primary" type="submit">Submit</button>
+
+              </fieldset>
+
+            </form>
+
+          </section>
+
+        </div> <!-- container -->
+      </div> <!-- col-md-8 -->
+
+      <!-- End of Contact Form -->
+
+      <!-- Sidebar -->
+
+      <div class="col-md-4 pt-sm-0 pt-md-5">
+        <div class="container pb-5 pl-5">
+          <div class="row">
+
+            <h3 class="col-sm-12 pb-2 pl-0">Our Address</h3>
+
+            <div>
+              <p class="mb-0"><i class="fas fa-map-marker-alt text-primary pr-2"></i> Main Street, 123</p>
+              <p class="pl-4">Nassau, Bahamas</p>
+              <p><i class="fas fa-phone text-primary pr-2"></i>Phone: 111-222-1234</p>
+              <p><i class="fas fa-envelope text-primary pr-2"></i>Email: friviznhotel@gmail.com</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- End of Sidebar -->
+
+    </div> <!-- row -->
+
+  </div> <!-- container -->
+
+  <!-- End of Main -->
+
+  <!-- Book Now Modal -->
+
+  <div class="modal fade" id="servicesmodal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+
+          <h2 class="modal-title text-center pb-4">Book Now</h2>
+
+          <form>
+
+            <fieldset class="form-group">
+
+              <div class="form-group form-row">
+                <div class="form-group col">
+                  <label class="col-form-label" for="check-in">Check In</label>
+                  <input class="form-control" type="date" id="check-in" value="2019-08-19">
+                </div><!-- form-group -->
+
+                <div class="form-group col">
+                  <label class="col-form-label" for="check-out">Check Out</label>
+                  <input class="form-control" type="date" id="check-out" value="2019-08-20">
+                </div><!-- form-group -->
+              </div><!-- form-group -->
+
+              <div class="form-group form-row">
+                <div class="form-group col">
+                  <label class="col-form-label">Adults</label>
+                  <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div><!-- form-group -->
+
+                <div class="form-group col">
+                  <label class="col-form-label">Children</label>
+                  <select class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                  </select>
+                </div><!-- form-group -->
+              </div><!-- form-group -->
+
+              <div class="form-group row w-100 mx-auto">
+                <label class="col-form-label">Room</label>
+                <select class="form-control">
+                  <option>Luxury Suite</option>
+                  <option>Signature Room</option>
+                  <option>Classic Room</option>
+                  <option>Deluxe Room</option>
+                </select>
+              </div><!-- form-group -->
+
+              <div class="form-group row pt-5">
+                <div class="col-auto">
+                  <button class="btn btn-primary" type="submit">Submit</button>
+                </div>
+              </div>
+
+            </fieldset> <!-- form-group -->
+
+          </form>
+
+        </div> <!-- modal body -->
+      </div> <!-- modal content -->
+    </div> <!-- modal dialog -->
+  </div> <!-- modal -->
+
+  <!-- End of Book Now Modal -->
+
+  <!-- Footer -->
+
+  <footer class="page-footer font-small text-center text-md-left">
+
+    <!-- Footer Links -->
+    <div class="container py-5">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Links -->
+          <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Address</h3>
+
+          <div>
+            <p>Main Street 123</p>
+            <p>New York, NY, USA</p>
+            <a href="contact.html"><small>Get direction</small></a>
+          </div>
+
+        </div> <!-- col-md-4 mx-auto -->
+
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Links -->
+          <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Reservation</h3>
+
+          <div>
+            <p>Phone: 111-234-5678</p>
+            <p>Email: friviznhotel@gmail.com</p>
+            <div>
+              <button type="button" class="btn btn-primary pb-2 text-uppercase" data-toggle="modal"
+                data-target="#servicesmodal">Book
+                Now</button>
+            </div>
+          </div>
+
+        </div> <!-- col-md-4 mx-auto -->
+
+        <!-- Grid column -->
+        <hr class="clearfix w-100 d-md-none">
+
+        <!-- Grid column -->
+        <div class="col-md-4 mx-auto">
+
+          <!-- Links -->
+          <h3 class="font-weight-bold text-uppercase mt-3 mb-4">Newsletter</h3>
+
+          <form class="justify-content-center mx-5 mx-md-0">
+            <div class="form-group">
+              <label class="form-control-label sr-only" for="email">Email address</label>
+              <input class="form-control" type="email" id="email" aria-describedby="email" placeholder="Your email">
+            </div><!-- form-group -->
+
+            <div class="input-group-append">
+              <button class="btn btn-sm btn-outline-white my-0" type="button">Sign up</button>
+            </div>
+          </form>
+
+          <div class="icons d-flex justify-content-between mx-5 mx-md-0">
+            <a href="http://www.instagram.com"><i class="fab fa-instagram"></i></a>
+            <a href="http://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+            <a href="http://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+            <a href="http://www.youtube.com"><i class="fab fa-youtube-square"></i></a>
+          </div>
+
+        </div> <!-- col-md-4 mx-auto -->
+
+      </div> <!-- row -->
+
+    </div> <!-- container -->
+
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+
+    <div class="footer-copyright text-center bg-dark text-light py-3">© 2019
+      <a class="text-light" href="https://mdbootstrap.com/education/bootstrap/"> Frivizn Studio</a>
+    </div>
+
+    <!-- Copyright -->
+
+  </footer>
+
+  <!-- End of Footer -->
+
+
+  <script src="js/jquery.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
